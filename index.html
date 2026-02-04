@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Portfolio</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Your Name</h1>
+                <p class="hero-tagline">Developer · Designer · Creative Thinker</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-placeholder">
+                    <span>Photo</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm a passionate professional with a love for building meaningful digital experiences. 
+                    With expertise in web development and design, I strive to create solutions that are 
+                    both beautiful and functional.
+                </p>
+                <p>
+                    When I'm not coding, you can find me exploring new technologies, contributing to 
+                    open-source projects, or sharing knowledge with the developer community.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">◆</span>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">◆</span>
+                    <h3>Backend</h3>
+                    <p>Node.js, Python, APIs</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">◆</span>
+                    <h3>Design</h3>
+                    <p>UI/UX, Figma, Responsive</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">◆</span>
+                    <h3>Tools</h3>
+                    <p>Git, VS Code, Docker</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2 class="section-title">Experience & Projects</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Project Title</h3>
+                        <span class="timeline-date">2024</span>
+                        <p>Brief description of the project, technologies used, and your role.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Role / Company</h3>
+                        <span class="timeline-date">2023</span>
+                        <p>Description of your responsibilities and achievements.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Another Project</h3>
+                        <span class="timeline-date">2022</span>
+                        <p>Showcase your work and the impact you made.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-intro">Interested in working together? I'd love to hear from you.</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-link">
+                    <span class="contact-icon">✉</span>
+                    your.email@example.com
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+                    <span class="contact-icon">◇</span>
+                    GitHub
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" class="contact-link">
+                    <span class="contact-icon">in</span>
+                    LinkedIn
+                </a>
+                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+                    <span class="contact-icon">𝕏</span>
+                    Twitter
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Your Name. Crafted with care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
